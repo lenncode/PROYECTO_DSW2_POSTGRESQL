@@ -19,16 +19,16 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-@Table(name = "Prestamos")
+@Table(name = "prestamos")
 public class Prestamos {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idPrestamo;
-    
+
     @JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_usuario")
-    private Usuarios_Premium idUsuario;
+    private UsuariosPremium idUsuario;
     private Long idLibro;
     private LocalDate fechaPrestamo;
     private LocalDate fechaDevolucion;

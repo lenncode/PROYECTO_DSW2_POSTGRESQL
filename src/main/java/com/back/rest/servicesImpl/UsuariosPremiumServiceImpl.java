@@ -5,28 +5,28 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.back.rest.entity.Usuarios_Premium;
-import com.back.rest.repository.Usuarios_PremiumRepository;
-import com.back.rest.services.Usuarios_PremiumService;
+import com.back.rest.entity.UsuariosPremium;
+import com.back.rest.repository.UsuariosPremiumRepository;
+import com.back.rest.services.UsuariosPremiumService;
 
 @Service
-public class Usuarios_PremiumServiceImpl implements Usuarios_PremiumService {
+public class UsuariosPremiumServiceImpl implements UsuariosPremiumService {
     @Autowired
-    private Usuarios_PremiumRepository usuariosPremiumRepository;
+    private UsuariosPremiumRepository usuariosPremiumRepository;
 
     @Override
-    public List<Usuarios_Premium> getAllUsuariosPremium() {
+    public List<UsuariosPremium> getAllUsuariosPremium() {
         return usuariosPremiumRepository.findAll();
     }
 
     @Override
-    public Usuarios_Premium createUsuarioPremium(Usuarios_Premium usuarioPremium) {
+    public UsuariosPremium createUsuarioPremium(UsuariosPremium usuarioPremium) {
         return usuariosPremiumRepository.save(usuarioPremium);
     }
 
     @Override
-    public Usuarios_Premium updateUsuarioPremium(Long id, Usuarios_Premium usuarioDetails) {
-        Usuarios_Premium usuario = usuariosPremiumRepository.findById(id).get();
+    public UsuariosPremium updateUsuarioPremium(Long id, UsuariosPremium usuarioDetails) {
+        UsuariosPremium usuario = usuariosPremiumRepository.findById(id).get();
         usuario.setNombre(usuarioDetails.getNombre());
         usuario.setApellido(usuarioDetails.getApellido());
         usuario.setEmail(usuarioDetails.getEmail());
@@ -38,7 +38,7 @@ public class Usuarios_PremiumServiceImpl implements Usuarios_PremiumService {
 
     @Override
     public void deleteUsuarioPremium(Long id) {
-        Usuarios_Premium usuario = usuariosPremiumRepository.findById(id).get();
+        UsuariosPremium usuario = usuariosPremiumRepository.findById(id).get();
         usuariosPremiumRepository.delete(usuario);
     }
 }

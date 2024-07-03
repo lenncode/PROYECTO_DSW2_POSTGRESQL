@@ -13,10 +13,10 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(name = "Usuarios_Premium")
+@Table(name = "usuariosPremium")
 @Getter
 @Setter
-public class Usuarios_Premium {
+public class UsuariosPremium {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idUsuario;
@@ -28,9 +28,4 @@ public class Usuarios_Premium {
     private LocalDate fechaNacimiento;
     private Byte estado;
 
-    // Getters y Setters
-    public Long getIdUsuario() {
-        return idUsuario;
-}
-    
 }
