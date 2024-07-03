@@ -24,7 +24,7 @@ public class UsuariosPremium {
     private String nombre;
     private String apellido;
     private String email;
-    private String contraseña;
+    private String password;
     private LocalDate fechaNacimiento;
     private Byte estado;
 

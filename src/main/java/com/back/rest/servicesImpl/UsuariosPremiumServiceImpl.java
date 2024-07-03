@@ -30,7 +30,7 @@ public class UsuariosPremiumServiceImpl implements UsuariosPremiumService {
         usuario.setNombre(usuarioDetails.getNombre());
         usuario.setApellido(usuarioDetails.getApellido());
         usuario.setEmail(usuarioDetails.getEmail());
-        usuario.setContraseña(usuarioDetails.getContraseña());
+        usuario.setPassword(usuarioDetails.getPassword()
         usuario.setFechaNacimiento(usuarioDetails.getFechaNacimiento());
         usuario.setEstado(usuarioDetails.getEstado());
         return usuariosPremiumRepository.save(usuario);
