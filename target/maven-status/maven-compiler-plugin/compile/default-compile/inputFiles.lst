@@ -1,0 +1,16 @@
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\Bibliotec_PostgresqlApplication.java
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\controller\PrestamosController.java
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\controller\Usuarios_PremiumController.java
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\entity\Prestamos.java
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\entity\Usuarios_Premium.java
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\repository\PrestamosRepository.java
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\repository\Usuarios_PremiumRepository.java
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\services\PrestamosService.java
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\services\Usuarios_PremiumService.java
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\servicesImpl\PrestamosServiceImpl.java
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\servicesImpl\Usuarios_PremiumServiceImpl.java
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\util\AppSettings.java
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\util\ExceptionResponse.java
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\util\MensajeResponse.java
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\util\ModeloNotFoundException.java
+c:\Users\sam_l\GRUPO_DSW2\DSW2_G0_PROYECTO_BACKEND\PB\Postgres_Bibliotec\Bibliotec_Postgresql\src\main\java\com\back\rest\util\ValidationHandler.java
