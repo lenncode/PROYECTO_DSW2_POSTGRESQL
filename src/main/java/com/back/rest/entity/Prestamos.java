@@ -20,7 +20,7 @@ public class Prestamos {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idPrestamo;
 
-    private Long idUsuario;
+    private Usuarios_Premium idUsuario;
     private Long idLibro;
     private LocalDate fechaPrestamo;
     private LocalDate fechaDevolucion;
